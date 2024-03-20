@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
+# FriendConnect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FriendConnect is a social networking platform designed to connect people and foster meaningful relationships. Similar to popular social media platforms like Facebook, FriendConnect allows users to create profiles, share posts, interact with friends, and much more.
 
-Currently, two official plugins are available:
+## Designs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User Authentication: Secure user authentication system to register and login.
+- Profile Creation: Users can create and customize their profiles with personal information.
+- Post Sharing: Share posts, photos, videos, and thoughts with friends and followers.
+- Friend Connections: Connect with friends and build a network of connections.
+- News Feed: Personalized news feed to view updates from friends.
+- Like and Comment: Interact with posts by liking and commenting on them.
+- Responsive Design: Mobile-friendly design to ensure a seamless user experience across devices.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React: Frontend development library for building user interfaces.
+- TypeScript: Superset of JavaScript that adds static typing to the language.
+- React Router: Declarative routing for navigating between different components.
+- CSS Modules: Scoped CSS styling to encapsulate styles within components.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+To run FriendConnect locally, follow these steps:
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/friend-connect.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory:
+
+```
+cd friend-connect
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm start
+```
+
+5. Open your browser and navigate to (http://localhost:5173)
+
+## Contributing
+
+Contributions are welcome! Feel free to submit pull requests or open issues for any bugs or feature requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
