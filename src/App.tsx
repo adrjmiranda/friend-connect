@@ -1,9 +1,10 @@
 import { FunctionComponent, ReactNode } from 'react';
+import { Outlet } from 'react-router-dom';
 
 const App: FunctionComponent = (): ReactNode => {
 	return (
 		<div>
-			<h1>FriendConnect</h1>
+			<Outlet />
 		</div>
 	);
 };
