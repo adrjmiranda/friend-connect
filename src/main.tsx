@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 
 // Import Styles
-import './index.css';
+import GlobalStyles from './GlobalStyles.ts';
 
 // Import Pages
 import App from './App.tsx';
@@ -14,6 +14,7 @@ import UserProfile from './pages/user-profile/index.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<BrowserRouter>
+		<GlobalStyles />
 		<Routes>
 			<Route element={<App />}>
 				<Route path='/friend-connect' element={<Home />} />

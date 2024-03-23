@@ -17,7 +17,7 @@ FriendConnect is a social networking platform designed to connect people and fos
 - React: Frontend development library for building user interfaces.
 - TypeScript: Superset of JavaScript that adds static typing to the language.
 - React Router: Declarative routing for navigating between different components.
-- CSS Modules: Scoped CSS styling to encapsulate styles within components.
+- Styled Components: Uma biblioteca poderosa para estilização de componentes em aplicações React.
 
 ## Getting Started
 
