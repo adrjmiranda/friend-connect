@@ -23,9 +23,9 @@ const Topbar: FunctionComponent = (): ReactNode => {
 			<Wrapper>
 				<nav>
 					<Styles.SearchBar>
-						<div className='logo'>
+						<a href='#' className='logo'>
 							<img src={Logo} alt='FriendConnect' />
-						</div>
+						</a>
 						<div className='search'>
 							<form action='#'>
 								<input type='search' name='search' placeholder='Search...' />

@@ -99,6 +99,7 @@ export const Profile = styled.div`
 		height: 50px;
 		border-radius: 50%;
 		border: 2px solid var(--septenary-color);
+		object-fit: cover;
 	}
 
 	.user span {
