@@ -53,6 +53,9 @@ const GlobalStyles = createGlobalStyle`
     opacity: .9;
     font-size: 1.1rem;
     transition: all .5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .btn:hover {
