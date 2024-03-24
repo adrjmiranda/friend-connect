@@ -5,6 +5,9 @@ export const Container = styled.div`
 	padding: 2rem 0.8rem;
 	border-radius: 5px;
 	height: fit-content;
+	position: sticky;
+	top: 7.5rem;
+	overflow-y: scroll;
 
 	.top {
 		display: flex;

@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 	background-color: var(--tertiary-color);
+	position: sticky;
+	top: 0;
+	z-index: 999;
 
 	nav {
 		display: flex;

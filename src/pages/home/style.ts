@@ -7,6 +7,6 @@ export const Container = styled.div`
 	}
 
 	.right-content {
-		flex: 2;
+		flex: 3;
 	}
 `;
