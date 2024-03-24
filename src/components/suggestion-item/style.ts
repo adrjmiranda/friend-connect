@@ -5,6 +5,7 @@ export const Container = styled.div`
 	align-items: center;
 	justify-content: space-between;
 	color: var(--sextenary-color);
+	gap: 0.5rem;
 
 	.user-id {
 		display: flex;
