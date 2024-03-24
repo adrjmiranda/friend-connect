@@ -42,6 +42,23 @@ const GlobalStyles = createGlobalStyle`
   #container {
     padding: 40px 0;
   }
+
+  .btn {
+    background-image: linear-gradient(-45deg, var(--primary-color), var(--secondary-color));
+    color: var(--septenary-color);
+    font-weight: bold;
+    cursor: pointer;
+    padding: .5rem .8rem;
+    border-radius: 5px;
+    opacity: .9;
+    font-size: 1.1rem;
+    transition: all .5s ease;
+  }
+
+  .btn:hover {
+    background-image: linear-gradient(-45deg, var(--secondary-color), var(--primary-color));
+    opacity: 1;
+  }
 `;
 
 export const Wrapper = styled.div`

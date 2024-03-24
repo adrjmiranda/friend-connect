@@ -2,12 +2,12 @@ const users = [
 	{
 		id: 1,
 		image: 'friend-connect/img/users/1.jpg',
-		name: 'Safak Kocaoglu',
+		name: 'John Doe',
 	},
 	{
 		id: 2,
 		image: 'friend-connect/img/users/2.jpg',
-		name: 'John Doe',
+		name: 'Safak Kocaoglu',
 	},
 	{
 		id: 3,
