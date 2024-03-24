@@ -2,7 +2,7 @@ const posts = [
 	{
 		id: 1,
 		description: 'Love For All, Hatred For None.',
-		photo: '1.jpeg',
+		photo: 'friend-connect/img/posts/1.jpg',
 		date: '15 mins ago',
 		userId: 2,
 		like: 2,
@@ -11,7 +11,7 @@ const posts = [
 	{
 		id: 2,
 		description: 'Change the world by being yourself.',
-		photo: '2.jpeg',
+		photo: 'friend-connect/img/posts/2.jpg',
 		date: '30 mins ago',
 		userId: 3,
 		like: 5,
@@ -20,7 +20,7 @@ const posts = [
 	{
 		id: 3,
 		description: 'Every moment is a fresh beginning.',
-		photo: '3.jpeg',
+		photo: 'friend-connect/img/posts/3.jpg',
 		date: '1 hour ago',
 		userId: 4,
 		like: 10,
@@ -29,7 +29,7 @@ const posts = [
 	{
 		id: 4,
 		description: 'Never regret anything that made you smile.',
-		photo: '4.jpeg',
+		photo: 'friend-connect/img/posts/4.jpg',
 		date: '2 hours ago',
 		userId: 5,
 		like: 7,
@@ -38,7 +38,7 @@ const posts = [
 	{
 		id: 5,
 		description: 'Die with memories, not dreams.',
-		photo: '5.jpeg',
+		photo: 'friend-connect/img/posts/5.jpg',
 		date: '3 hours ago',
 		userId: 6,
 		like: 3,
@@ -47,7 +47,7 @@ const posts = [
 	{
 		id: 6,
 		description: 'Aspire to inspire before we expire.',
-		photo: '6.jpeg',
+		photo: 'friend-connect/img/posts/6.jpg',
 		date: '4 hours ago',
 		userId: 7,
 		like: 6,
@@ -56,7 +56,7 @@ const posts = [
 	{
 		id: 7,
 		description: 'Everything you can imagine is real.',
-		photo: '7.jpeg',
+		photo: 'friend-connect/img/posts/7.jpg',
 		date: '5 hours ago',
 		userId: 8,
 		like: 12,
@@ -65,7 +65,7 @@ const posts = [
 	{
 		id: 8,
 		description: 'Simplicity is the ultimate sophistication.',
-		photo: '8.jpeg',
+		photo: 'friend-connect/img/posts/8.jpg',
 		date: '6 hours ago',
 		userId: 9,
 		like: 8,
@@ -74,7 +74,7 @@ const posts = [
 	{
 		id: 9,
 		description: 'Whatever you do, do it well.',
-		photo: '9.jpeg',
+		photo: 'friend-connect/img/posts/9.jpg',
 		date: '7 hours ago',
 		userId: 10,
 		like: 9,
@@ -83,10 +83,12 @@ const posts = [
 	{
 		id: 10,
 		description: 'What we think, we become.',
-		photo: '10.jpeg',
+		photo: 'friend-connect/img/posts/10.jpg',
 		date: '8 hours ago',
 		userId: 11,
 		like: 4,
 		comment: 2,
 	},
 ];
+
+export default posts;

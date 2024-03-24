@@ -38,6 +38,10 @@ const GlobalStyles = createGlobalStyle`
   .logo {
     font-family: 'Lilita One', sans-serif;
   }
+
+  #container {
+    padding: 40px 0;
+  }
 `;
 
 export const Wrapper = styled.div`

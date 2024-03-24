@@ -1,52 +1,54 @@
 const users = [
 	{
 		id: 1,
-		image: '1.jpeg',
+		image: 'friend-connect/img/users/1.jpg',
 		name: 'Safak Kocaoglu',
 	},
 	{
 		id: 2,
-		image: '2.jpeg',
+		image: 'friend-connect/img/users/2.jpg',
 		name: 'John Doe',
 	},
 	{
 		id: 3,
-		image: '3.jpeg',
+		image: 'friend-connect/img/users/3.jpg',
 		name: 'Jane Smith',
 	},
 	{
 		id: 4,
-		image: '4.jpeg',
+		image: 'friend-connect/img/users/4.jpg',
 		name: 'Michael Johnson',
 	},
 	{
 		id: 5,
-		image: '5.jpeg',
+		image: 'friend-connect/img/users/5.jpg',
 		name: 'Emily Wilson',
 	},
 	{
 		id: 6,
-		image: '6.jpeg',
+		image: 'friend-connect/img/users/6.jpg',
 		name: 'David Brown',
 	},
 	{
 		id: 7,
-		image: '7.jpeg',
+		image: 'friend-connect/img/users/7.jpg',
 		name: 'Olivia Taylor',
 	},
 	{
 		id: 8,
-		image: '8.jpeg',
+		image: 'friend-connect/img/users/8.jpg',
 		name: 'Daniel Martinez',
 	},
 	{
 		id: 9,
-		image: '9.jpeg',
+		image: 'friend-connect/img/users/9.jpg',
 		name: 'Sophia Anderson',
 	},
 	{
 		id: 10,
-		image: '10.jpeg',
+		image: 'friend-connect/img/users/10.jpg',
 		name: 'William Clark',
 	},
 ];
+
+export default users;

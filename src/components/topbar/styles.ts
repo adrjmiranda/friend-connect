@@ -97,6 +97,7 @@ export const Profile = styled.div`
 
 	.user img {
 		height: 50px;
+		width: 50px;
 		border-radius: 50%;
 		border: 2px solid var(--septenary-color);
 		object-fit: cover;

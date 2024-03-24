@@ -16,7 +16,7 @@ const Home: FunctionComponent = (): ReactNode => {
 		<Style.Container>
 			<Topbar />
 			<Wrapper>
-				<div className='content'>
+				<div className='content' id='container'>
 					<Suggestionbar />
 					<Feed />
 					<div className='right-content'>
