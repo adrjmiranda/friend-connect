@@ -2,7 +2,7 @@ const posts = [
 	{
 		id: 1,
 		description: 'Love For All, Hatred For None.',
-		photo: 'friend-connect/img/posts/1.jpg',
+		photo: 'img/posts/1.jpg',
 		date: '15 mins ago',
 		userId: 1,
 		like: 2,
@@ -11,7 +11,7 @@ const posts = [
 	{
 		id: 2,
 		description: 'Change the world by being yourself.',
-		photo: 'friend-connect/img/posts/2.jpg',
+		photo: 'img/posts/2.jpg',
 		date: '30 mins ago',
 		userId: 2,
 		like: 5,
@@ -20,7 +20,7 @@ const posts = [
 	{
 		id: 3,
 		description: 'Every moment is a fresh beginning.',
-		photo: 'friend-connect/img/posts/3.jpg',
+		photo: 'img/posts/3.jpg',
 		date: '1 hour ago',
 		userId: 3,
 		like: 10,
@@ -29,7 +29,7 @@ const posts = [
 	{
 		id: 4,
 		description: 'Never regret anything that made you smile.',
-		photo: 'friend-connect/img/posts/4.jpg',
+		photo: 'img/posts/4.jpg',
 		date: '2 hours ago',
 		userId: 4,
 		like: 7,
@@ -38,7 +38,7 @@ const posts = [
 	{
 		id: 5,
 		description: 'Die with memories, not dreams.',
-		photo: 'friend-connect/img/posts/5.jpg',
+		photo: 'img/posts/5.jpg',
 		date: '3 hours ago',
 		userId: 5,
 		like: 3,
@@ -47,7 +47,7 @@ const posts = [
 	{
 		id: 6,
 		description: 'Aspire to inspire before we expire.',
-		photo: 'friend-connect/img/posts/6.jpg',
+		photo: 'img/posts/6.jpg',
 		date: '4 hours ago',
 		userId: 6,
 		like: 6,
@@ -56,7 +56,7 @@ const posts = [
 	{
 		id: 7,
 		description: 'Everything you can imagine is real.',
-		photo: 'friend-connect/img/posts/7.jpg',
+		photo: 'img/posts/7.jpg',
 		date: '5 hours ago',
 		userId: 7,
 		like: 12,
@@ -65,7 +65,7 @@ const posts = [
 	{
 		id: 8,
 		description: 'Simplicity is the ultimate sophistication.',
-		photo: 'friend-connect/img/posts/8.jpg',
+		photo: 'img/posts/8.jpg',
 		date: '6 hours ago',
 		userId: 8,
 		like: 8,
@@ -74,7 +74,7 @@ const posts = [
 	{
 		id: 9,
 		description: 'Whatever you do, do it well.',
-		photo: 'friend-connect/img/posts/9.jpg',
+		photo: 'img/posts/9.jpg',
 		date: '7 hours ago',
 		userId: 9,
 		like: 9,
@@ -83,7 +83,7 @@ const posts = [
 	{
 		id: 10,
 		description: 'What we think, we become.',
-		photo: 'friend-connect/img/posts/10.jpg',
+		photo: 'img/posts/10.jpg',
 		date: '8 hours ago',
 		userId: 10,
 		like: 4,
